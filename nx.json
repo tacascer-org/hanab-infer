@@ -24,5 +24,10 @@
       "!{projectRoot}/test/**/*"
     ]
   },
-  "nxCloudAccessToken": "N2FjYWYzZmEtYjk4Mi00MTQ1LWIyYWMtNDZhZWY0OGI5MjRhfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "N2FjYWYzZmEtYjk4Mi00MTQ1LWIyYWMtNDZhZWY0OGI5MjRhfHJlYWQtd3JpdGU=",
+  "release": {
+    "version": {
+      "conventionalCommits": true
+    }
+  }
 }
