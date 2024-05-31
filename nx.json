@@ -23,5 +23,6 @@
       "default",
       "!{projectRoot}/test/**/*"
     ]
-  }
+  },
+  "nxCloudAccessToken": "N2FjYWYzZmEtYjk4Mi00MTQ1LWIyYWMtNDZhZWY0OGI5MjRhfHJlYWQtd3JpdGU="
 }
