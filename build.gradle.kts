@@ -5,10 +5,6 @@
  * To learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.7/samples
  */
 
-plugins {
-    alias(libs.plugins.sonar)
-}
-
 allprojects {
     apply {
         plugin("project-report")
