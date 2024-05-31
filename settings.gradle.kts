@@ -10,3 +10,9 @@ plugins {
 
 rootProject.name = "hanab-infer"
 include("hanab-infer-engine")
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
