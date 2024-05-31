@@ -19,7 +19,7 @@ kotlin {
 
 sonar {
     properties {
-        property("sonar.projectKey", "tacascer-org_hanab-infer-engine")
+        property("sonar.projectKey", "tacascer-org_hanab-infer_engine")
         property("sonar.organization", "tacascer-org")
     }
 }
