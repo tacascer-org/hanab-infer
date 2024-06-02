@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SonarLintProjectSettings">
     <option name="bindingEnabled" value="true" />
-    <option name="projectKey" value="tacascer-org_hanab-infer-engine" />
-    <option name="serverId" value="Sonarcloud" />
+    <option name="projectKey" value="tacascer-org_hanab-infer_engine" />
+    <option name="serverId" value="SonarCloud" />
   </component>
 </project>
