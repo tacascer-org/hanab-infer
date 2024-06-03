@@ -66,7 +66,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: ./gradlew build sonar --info
+        run: ./gradlew sonar --info
 
   auto-approve-dependabot:
     uses: tacascer-org/actions-workflows/.github/workflows/approve_dependabot.yml@v0.5.2
