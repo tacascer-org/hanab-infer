@@ -8,6 +8,7 @@ import io.kotest.property.arbitrary.list
 import io.kotest.property.arbitrary.merge
 import io.kotest.property.arbitrary.next
 import io.kotest.property.arbitrary.string
+import io.kotest.property.arbitrary.uuid
 
 val randomPlayer =
     arbitrary { rs ->
@@ -21,7 +22,7 @@ val randomPlayer =
  */
 fun randomPlayer(handSize: Int): Arb<Player> {
     return arbitrary { rs ->
-        val name = Arb.string().next(rs)
+        val name = Arb.uuid().next(rs).toString()
         val hand = Arb.list(randomCard, handSize..handSize).next(rs)
         Player(name, hand)
     }

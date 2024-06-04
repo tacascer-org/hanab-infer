@@ -20,6 +20,7 @@ data class Game(
         } else {
             require(players.all { it.handSize == 4 }) { "Players in a 4-5 player game must have 4 cards" }
         }
+        require(players.distinctBy { it.name }.size == players.size) { "Players must have unique names" }
     }
 
     /**
@@ -42,7 +43,7 @@ data class Game(
         currentInferences: Map<Player, List<Inferences>>,
     ): Map<Player, List<Inferences>> {
         val to = clue.to
-        val toPlayer = playerToNameMap.getValue(to)
+        val toPlayer = nameToPlayerMap.getValue(to)
         return if (toPlayer == nextPlayer) {
             currentInferences
         } else {
@@ -61,7 +62,7 @@ data class Game(
     private val nextPlayer =
         playerToPlayerPositionMap.getValue(currentPlayer).let { players[(it + 1) % players.size] }
 
-    private val playerToNameMap = players.associateBy { it.name }
+    private val nameToPlayerMap = players.associateBy { it.name }
 }
 
 /**
