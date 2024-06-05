@@ -1,4 +1,4 @@
-package io.github.tacascer.hanab.infer
+package io.github.tacascer.hanab.engine
 
 data class Player(
     val name: String,
