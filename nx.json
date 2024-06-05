@@ -1,8 +1,8 @@
 {
   "installation": {
-    "version": "19.1.1",
+    "version": "19.1.2",
     "plugins": {
-      "@nx/gradle": "19.1.1"
+      "@nx/gradle": "19.1.2"
     }
   },
   "plugins": [
