@@ -1,0 +1,930 @@
+{
+  "10510844881077516425": {
+    "name": "hanab-infer",
+    "targets": {
+      "assemble": {
+        "command": "./gradlew assemble",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "build": {
+        "command": "./gradlew build",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^build",
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/build"
+        ]
+      },
+      "buildDependents": {
+        "command": "./gradlew buildDependents",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildKotlinToolingMetadata": {
+        "command": "./gradlew buildKotlinToolingMetadata",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildNeeded": {
+        "command": "./gradlew buildNeeded",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "classes": {
+        "command": "./gradlew classes",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/build/classes"
+        ]
+      },
+      "clean": {
+        "command": "./gradlew clean",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "jar": {
+        "command": "./gradlew jar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "kotlinSourcesJar": {
+        "command": "./gradlew kotlinSourcesJar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "testClasses": {
+        "command": "./gradlew testClasses",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "init": {
+        "command": "./gradlew init",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "wrapper": {
+        "command": "./gradlew wrapper",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javadoc": {
+        "command": "./gradlew javadoc",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildEnvironment": {
+        "command": "./gradlew buildEnvironment",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencies": {
+        "command": "./gradlew dependencies",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyInsight": {
+        "command": "./gradlew dependencyInsight",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "help": {
+        "command": "./gradlew help",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javaToolchains": {
+        "command": "./gradlew javaToolchains",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "kotlinDslAccessorsReport": {
+        "command": "./gradlew kotlinDslAccessorsReport",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "outgoingVariants": {
+        "command": "./gradlew outgoingVariants",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projects": {
+        "command": "./gradlew projects",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "properties": {
+        "command": "./gradlew properties",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolvableConfigurations": {
+        "command": "./gradlew resolvableConfigurations",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "tasks": {
+        "command": "./gradlew tasks",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projectReport": {
+        "command": "./gradlew projectReport",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/build/reports/project"
+        ]
+      },
+      "check": {
+        "command": "./gradlew check",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "checkKotlinGradlePluginConfigurationErrors": {
+        "command": "./gradlew checkKotlinGradlePluginConfigurationErrors",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverBinaryReport": {
+        "command": "./gradlew koverBinaryReport",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverBinaryReportJvm": {
+        "command": "./gradlew koverBinaryReportJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverCachedVerify": {
+        "command": "./gradlew koverCachedVerify",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverCachedVerifyJvm": {
+        "command": "./gradlew koverCachedVerifyJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverHtmlReport": {
+        "command": "./gradlew koverHtmlReport",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverHtmlReportJvm": {
+        "command": "./gradlew koverHtmlReportJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverLog": {
+        "command": "./gradlew koverLog",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverLogJvm": {
+        "command": "./gradlew koverLogJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverVerify": {
+        "command": "./gradlew koverVerify",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverVerifyJvm": {
+        "command": "./gradlew koverVerifyJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverXmlReport": {
+        "command": "./gradlew koverXmlReport",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverXmlReportJvm": {
+        "command": "./gradlew koverXmlReportJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "sonar": {
+        "command": "./gradlew sonar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "sonarqube": {
+        "command": "./gradlew sonarqube",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "test": {
+        "command": "./gradlew test",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production"
+        ],
+        "dependsOn": [
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "Build": [
+          "assemble",
+          "build",
+          "buildDependents",
+          "buildKotlinToolingMetadata",
+          "buildNeeded",
+          "classes",
+          "clean",
+          "jar",
+          "kotlinSourcesJar",
+          "testClasses"
+        ],
+        "Build Setup": [
+          "init",
+          "wrapper"
+        ],
+        "Documentation": [
+          "javadoc"
+        ],
+        "Help": [
+          "buildEnvironment",
+          "dependencies",
+          "dependencyInsight",
+          "help",
+          "javaToolchains",
+          "kotlinDslAccessorsReport",
+          "outgoingVariants",
+          "projects",
+          "properties",
+          "resolvableConfigurations",
+          "tasks"
+        ],
+        "Reporting": [
+          "projectReport"
+        ],
+        "Verification": [
+          "check",
+          "checkKotlinGradlePluginConfigurationErrors",
+          "koverBinaryReport",
+          "koverBinaryReportJvm",
+          "koverCachedVerify",
+          "koverCachedVerifyJvm",
+          "koverHtmlReport",
+          "koverHtmlReportJvm",
+          "koverLog",
+          "koverLogJvm",
+          "koverVerify",
+          "koverVerifyJvm",
+          "koverXmlReport",
+          "koverXmlReportJvm",
+          "sonar",
+          "sonarqube",
+          "test"
+        ]
+      },
+      "technologies": [
+        "gradle"
+      ]
+    }
+  },
+  "6520368646418848443": {
+    "name": "hanab-infer-engine",
+    "targets": {
+      "assemble": {
+        "command": "./gradlew :hanab-infer-engine:assemble",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "build": {
+        "command": "./gradlew :hanab-infer-engine:build",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^build",
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/hanab-infer-engine/build"
+        ]
+      },
+      "buildDependents": {
+        "command": "./gradlew :hanab-infer-engine:buildDependents",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildKotlinToolingMetadata": {
+        "command": "./gradlew :hanab-infer-engine:buildKotlinToolingMetadata",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildNeeded": {
+        "command": "./gradlew :hanab-infer-engine:buildNeeded",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "classes": {
+        "command": "./gradlew :hanab-infer-engine:classes",
+        "cache": true,
+        "inputs": [
+          "production",
+          "^production"
+        ],
+        "dependsOn": [
+          "^classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/hanab-infer-engine/build/classes"
+        ]
+      },
+      "clean": {
+        "command": "./gradlew :hanab-infer-engine:clean",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "jar": {
+        "command": "./gradlew :hanab-infer-engine:jar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "kotlinSourcesJar": {
+        "command": "./gradlew :hanab-infer-engine:kotlinSourcesJar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "testClasses": {
+        "command": "./gradlew :hanab-infer-engine:testClasses",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javadoc": {
+        "command": "./gradlew :hanab-infer-engine:javadoc",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "buildEnvironment": {
+        "command": "./gradlew :hanab-infer-engine:buildEnvironment",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencies": {
+        "command": "./gradlew :hanab-infer-engine:dependencies",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "dependencyInsight": {
+        "command": "./gradlew :hanab-infer-engine:dependencyInsight",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "help": {
+        "command": "./gradlew :hanab-infer-engine:help",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "javaToolchains": {
+        "command": "./gradlew :hanab-infer-engine:javaToolchains",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "kotlinDslAccessorsReport": {
+        "command": "./gradlew :hanab-infer-engine:kotlinDslAccessorsReport",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "outgoingVariants": {
+        "command": "./gradlew :hanab-infer-engine:outgoingVariants",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projects": {
+        "command": "./gradlew :hanab-infer-engine:projects",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "properties": {
+        "command": "./gradlew :hanab-infer-engine:properties",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "resolvableConfigurations": {
+        "command": "./gradlew :hanab-infer-engine:resolvableConfigurations",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "tasks": {
+        "command": "./gradlew :hanab-infer-engine:tasks",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "projectReport": {
+        "command": "./gradlew :hanab-infer-engine:projectReport",
+        "cache": false,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "outputs": [
+          "{workspaceRoot}/hanab-infer-engine/build/reports/project"
+        ]
+      },
+      "check": {
+        "command": "./gradlew :hanab-infer-engine:check",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "checkKotlinGradlePluginConfigurationErrors": {
+        "command": "./gradlew :hanab-infer-engine:checkKotlinGradlePluginConfigurationErrors",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverBinaryReport": {
+        "command": "./gradlew :hanab-infer-engine:koverBinaryReport",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverBinaryReportJvm": {
+        "command": "./gradlew :hanab-infer-engine:koverBinaryReportJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverCachedVerify": {
+        "command": "./gradlew :hanab-infer-engine:koverCachedVerify",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverCachedVerifyJvm": {
+        "command": "./gradlew :hanab-infer-engine:koverCachedVerifyJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverHtmlReport": {
+        "command": "./gradlew :hanab-infer-engine:koverHtmlReport",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverHtmlReportJvm": {
+        "command": "./gradlew :hanab-infer-engine:koverHtmlReportJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverLog": {
+        "command": "./gradlew :hanab-infer-engine:koverLog",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverLogJvm": {
+        "command": "./gradlew :hanab-infer-engine:koverLogJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverVerify": {
+        "command": "./gradlew :hanab-infer-engine:koverVerify",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverVerifyJvm": {
+        "command": "./gradlew :hanab-infer-engine:koverVerifyJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverXmlReport": {
+        "command": "./gradlew :hanab-infer-engine:koverXmlReport",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "koverXmlReportJvm": {
+        "command": "./gradlew :hanab-infer-engine:koverXmlReportJvm",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "sonar": {
+        "command": "./gradlew :hanab-infer-engine:sonar",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "sonarqube": {
+        "command": "./gradlew :hanab-infer-engine:sonarqube",
+        "cache": true,
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      },
+      "test": {
+        "command": "./gradlew :hanab-infer-engine:test",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production"
+        ],
+        "dependsOn": [
+          "classes"
+        ],
+        "metadata": {
+          "technologies": [
+            "gradle"
+          ]
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "Build": [
+          "assemble",
+          "build",
+          "buildDependents",
+          "buildKotlinToolingMetadata",
+          "buildNeeded",
+          "classes",
+          "clean",
+          "jar",
+          "kotlinSourcesJar",
+          "testClasses"
+        ],
+        "Documentation": [
+          "javadoc"
+        ],
+        "Help": [
+          "buildEnvironment",
+          "dependencies",
+          "dependencyInsight",
+          "help",
+          "javaToolchains",
+          "kotlinDslAccessorsReport",
+          "outgoingVariants",
+          "projects",
+          "properties",
+          "resolvableConfigurations",
+          "tasks"
+        ],
+        "Reporting": [
+          "projectReport"
+        ],
+        "Verification": [
+          "check",
+          "checkKotlinGradlePluginConfigurationErrors",
+          "koverBinaryReport",
+          "koverBinaryReportJvm",
+          "koverCachedVerify",
+          "koverCachedVerifyJvm",
+          "koverHtmlReport",
+          "koverHtmlReportJvm",
+          "koverLog",
+          "koverLogJvm",
+          "koverVerify",
+          "koverVerifyJvm",
+          "koverXmlReport",
+          "koverXmlReportJvm",
+          "sonar",
+          "sonarqube",
+          "test"
+        ]
+      },
+      "technologies": [
+        "gradle"
+      ]
+    }
+  }
+}

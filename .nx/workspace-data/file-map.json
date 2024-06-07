@@ -1,0 +1,161 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.2.1",
+  "deps": {
+    "nx": "19.2.1",
+    "@nx/gradle": "19.2.1"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/gradle",
+      "version": "19.2.1",
+      "options": {
+        "testTargetName": "test",
+        "classesTargetName": "classes",
+        "buildTargetName": "build"
+      }
+    }
+  ],
+  "fileMap": {
+    "projectFileMap": {
+      "hanab-infer-engine": [
+        {
+          "file": "hanab-infer-engine/build.gradle.kts",
+          "hash": "1649197001986080929"
+        },
+        {
+          "file": "hanab-infer-engine/src/main/kotlin/io/github/tacascer/hanab/infer/Card.kt",
+          "hash": "7559982687839305661"
+        },
+        {
+          "file": "hanab-infer-engine/src/main/kotlin/io/github/tacascer/hanab/infer/Clue.kt",
+          "hash": "6085211669355265764"
+        },
+        {
+          "file": "hanab-infer-engine/src/main/kotlin/io/github/tacascer/hanab/infer/Game.kt",
+          "hash": "8435125959064730960"
+        },
+        {
+          "file": "hanab-infer-engine/src/main/kotlin/io/github/tacascer/hanab/infer/Player.kt",
+          "hash": "2871262247138043015"
+        },
+        {
+          "file": "hanab-infer-engine/src/test/kotlin/io/github/tacascer/hanab/infer/GameTest.kt",
+          "hash": "8004186122279395120"
+        },
+        {
+          "file": "hanab-infer-engine/src/test/kotlin/io/github/tacascer/hanab/infer/PlayerTest.kt",
+          "hash": "842044425696912006"
+        },
+        {
+          "file": "hanab-infer-engine/src/test/kotlin/io/github/tacascer/hanab/infer/TestUtils.kt",
+          "hash": "11507627127077096179"
+        }
+      ],
+      "hanab-infer": [
+        {
+          "file": ".gitattributes",
+          "hash": "5658900781971289689"
+        },
+        {
+          "file": ".github/dependabot.yml",
+          "hash": "1684499200861611850"
+        },
+        {
+          "file": ".github/workflows/ci.yml",
+          "hash": "12674765902619955797"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "16130124011353245806"
+        },
+        {
+          "file": ".idea/.gitignore",
+          "hash": "10286036308014790964"
+        },
+        {
+          "file": ".idea/kotlinc.xml",
+          "hash": "15250550350662207571"
+        },
+        {
+          "file": ".idea/ktlint-plugin.xml",
+          "hash": "13295730781526093583"
+        },
+        {
+          "file": ".idea/misc.xml",
+          "hash": "5485358051803265579"
+        },
+        {
+          "file": ".idea/sonarlint.xml",
+          "hash": "13897644835343582304"
+        },
+        {
+          "file": ".idea/vcs.xml",
+          "hash": "13076890194361308264"
+        },
+        {
+          "file": ".nx/nxw.js",
+          "hash": "11254603345854076312"
+        },
+        {
+          "file": ".sonarlint/connectedMode.json",
+          "hash": "2465119864352006531"
+        },
+        {
+          "file": "LICENSE",
+          "hash": "15934020223350165518"
+        },
+        {
+          "file": "README.md",
+          "hash": "8217846449345495819"
+        },
+        {
+          "file": "build.gradle.kts",
+          "hash": "13750650381855615070"
+        },
+        {
+          "file": "gradle.properties",
+          "hash": "14863317098024925489"
+        },
+        {
+          "file": "gradle/libs.versions.toml",
+          "hash": "15013410554518868359"
+        },
+        {
+          "file": "gradle/wrapper/gradle-wrapper.jar",
+          "hash": "11159507676440420948"
+        },
+        {
+          "file": "gradle/wrapper/gradle-wrapper.properties",
+          "hash": "12318822339592461591"
+        },
+        {
+          "file": "gradlew",
+          "hash": "6979324130797723579"
+        },
+        {
+          "file": "gradlew.bat",
+          "hash": "11330313631402206505"
+        },
+        {
+          "file": "nx",
+          "hash": "17165975525224888679"
+        },
+        {
+          "file": "nx.bat",
+          "hash": "16828809655253213278"
+        },
+        {
+          "file": "nx.json",
+          "hash": "10700980862807814215"
+        },
+        {
+          "file": "settings.gradle.kts",
+          "hash": "14249448000427030918"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}

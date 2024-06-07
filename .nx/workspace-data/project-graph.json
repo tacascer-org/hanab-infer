@@ -1,0 +1,1280 @@
+{
+  "nodes": {
+    "hanab-infer-engine": {
+      "name": "hanab-infer-engine",
+      "type": "lib",
+      "data": {
+        "root": "hanab-infer-engine",
+        "name": "hanab-infer-engine",
+        "metadata": {
+          "targetGroups": {
+            "Build": [
+              "assemble",
+              "build",
+              "buildDependents",
+              "buildKotlinToolingMetadata",
+              "buildNeeded",
+              "classes",
+              "clean",
+              "jar",
+              "kotlinSourcesJar",
+              "testClasses"
+            ],
+            "Documentation": [
+              "javadoc"
+            ],
+            "Help": [
+              "buildEnvironment",
+              "dependencies",
+              "dependencyInsight",
+              "help",
+              "javaToolchains",
+              "kotlinDslAccessorsReport",
+              "outgoingVariants",
+              "projects",
+              "properties",
+              "resolvableConfigurations",
+              "tasks"
+            ],
+            "Reporting": [
+              "projectReport"
+            ],
+            "Verification": [
+              "check",
+              "checkKotlinGradlePluginConfigurationErrors",
+              "koverBinaryReport",
+              "koverBinaryReportJvm",
+              "koverCachedVerify",
+              "koverCachedVerifyJvm",
+              "koverHtmlReport",
+              "koverHtmlReportJvm",
+              "koverLog",
+              "koverLogJvm",
+              "koverVerify",
+              "koverVerifyJvm",
+              "koverXmlReport",
+              "koverXmlReportJvm",
+              "sonar",
+              "sonarqube",
+              "test"
+            ]
+          },
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "targets": {
+          "assemble": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:assemble"
+            },
+            "configurations": {}
+          },
+          "build": {
+            "cache": true,
+            "inputs": [
+              "production",
+              "^production"
+            ],
+            "dependsOn": [
+              "^build",
+              "classes"
+            ],
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "outputs": [
+              "{workspaceRoot}/hanab-infer-engine/build"
+            ],
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:build"
+            },
+            "configurations": {}
+          },
+          "buildDependents": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:buildDependents"
+            },
+            "configurations": {}
+          },
+          "buildKotlinToolingMetadata": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:buildKotlinToolingMetadata"
+            },
+            "configurations": {}
+          },
+          "buildNeeded": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:buildNeeded"
+            },
+            "configurations": {}
+          },
+          "classes": {
+            "cache": true,
+            "inputs": [
+              "production",
+              "^production"
+            ],
+            "dependsOn": [
+              "^classes"
+            ],
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "outputs": [
+              "{workspaceRoot}/hanab-infer-engine/build/classes"
+            ],
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:classes"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:clean"
+            },
+            "configurations": {}
+          },
+          "jar": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:jar"
+            },
+            "configurations": {}
+          },
+          "kotlinSourcesJar": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:kotlinSourcesJar"
+            },
+            "configurations": {}
+          },
+          "testClasses": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:testClasses"
+            },
+            "configurations": {}
+          },
+          "javadoc": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:javadoc"
+            },
+            "configurations": {}
+          },
+          "buildEnvironment": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:buildEnvironment"
+            },
+            "configurations": {}
+          },
+          "dependencies": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:dependencies"
+            },
+            "configurations": {}
+          },
+          "dependencyInsight": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:dependencyInsight"
+            },
+            "configurations": {}
+          },
+          "help": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:help"
+            },
+            "configurations": {}
+          },
+          "javaToolchains": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:javaToolchains"
+            },
+            "configurations": {}
+          },
+          "kotlinDslAccessorsReport": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:kotlinDslAccessorsReport"
+            },
+            "configurations": {}
+          },
+          "outgoingVariants": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:outgoingVariants"
+            },
+            "configurations": {}
+          },
+          "projects": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:projects"
+            },
+            "configurations": {}
+          },
+          "properties": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:properties"
+            },
+            "configurations": {}
+          },
+          "resolvableConfigurations": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:resolvableConfigurations"
+            },
+            "configurations": {}
+          },
+          "tasks": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:tasks"
+            },
+            "configurations": {}
+          },
+          "projectReport": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "outputs": [
+              "{workspaceRoot}/hanab-infer-engine/build/reports/project"
+            ],
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:projectReport"
+            },
+            "configurations": {}
+          },
+          "check": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:check"
+            },
+            "configurations": {}
+          },
+          "checkKotlinGradlePluginConfigurationErrors": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:checkKotlinGradlePluginConfigurationErrors"
+            },
+            "configurations": {}
+          },
+          "koverBinaryReport": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverBinaryReport"
+            },
+            "configurations": {}
+          },
+          "koverBinaryReportJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverBinaryReportJvm"
+            },
+            "configurations": {}
+          },
+          "koverCachedVerify": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverCachedVerify"
+            },
+            "configurations": {}
+          },
+          "koverCachedVerifyJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverCachedVerifyJvm"
+            },
+            "configurations": {}
+          },
+          "koverHtmlReport": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverHtmlReport"
+            },
+            "configurations": {}
+          },
+          "koverHtmlReportJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverHtmlReportJvm"
+            },
+            "configurations": {}
+          },
+          "koverLog": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverLog"
+            },
+            "configurations": {}
+          },
+          "koverLogJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverLogJvm"
+            },
+            "configurations": {}
+          },
+          "koverVerify": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverVerify"
+            },
+            "configurations": {}
+          },
+          "koverVerifyJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverVerifyJvm"
+            },
+            "configurations": {}
+          },
+          "koverXmlReport": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverXmlReport"
+            },
+            "configurations": {}
+          },
+          "koverXmlReportJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:koverXmlReportJvm"
+            },
+            "configurations": {}
+          },
+          "sonar": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:sonar"
+            },
+            "configurations": {}
+          },
+          "sonarqube": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:sonarqube"
+            },
+            "configurations": {}
+          },
+          "test": {
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ],
+            "dependsOn": [
+              "classes"
+            ],
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew :hanab-infer-engine:test"
+            },
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
+    "hanab-infer": {
+      "name": "hanab-infer",
+      "type": "lib",
+      "data": {
+        "root": ".",
+        "name": "hanab-infer",
+        "metadata": {
+          "targetGroups": {
+            "Build": [
+              "assemble",
+              "build",
+              "buildDependents",
+              "buildKotlinToolingMetadata",
+              "buildNeeded",
+              "classes",
+              "clean",
+              "jar",
+              "kotlinSourcesJar",
+              "testClasses"
+            ],
+            "Build Setup": [
+              "init",
+              "wrapper"
+            ],
+            "Documentation": [
+              "javadoc"
+            ],
+            "Help": [
+              "buildEnvironment",
+              "dependencies",
+              "dependencyInsight",
+              "help",
+              "javaToolchains",
+              "kotlinDslAccessorsReport",
+              "outgoingVariants",
+              "projects",
+              "properties",
+              "resolvableConfigurations",
+              "tasks"
+            ],
+            "Reporting": [
+              "projectReport"
+            ],
+            "Verification": [
+              "check",
+              "checkKotlinGradlePluginConfigurationErrors",
+              "koverBinaryReport",
+              "koverBinaryReportJvm",
+              "koverCachedVerify",
+              "koverCachedVerifyJvm",
+              "koverHtmlReport",
+              "koverHtmlReportJvm",
+              "koverLog",
+              "koverLogJvm",
+              "koverVerify",
+              "koverVerifyJvm",
+              "koverXmlReport",
+              "koverXmlReportJvm",
+              "sonar",
+              "sonarqube",
+              "test"
+            ]
+          },
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "targets": {
+          "assemble": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew assemble"
+            },
+            "configurations": {}
+          },
+          "build": {
+            "cache": true,
+            "inputs": [
+              "production",
+              "^production"
+            ],
+            "dependsOn": [
+              "^build",
+              "classes"
+            ],
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "outputs": [
+              "{workspaceRoot}/build"
+            ],
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew build"
+            },
+            "configurations": {}
+          },
+          "buildDependents": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew buildDependents"
+            },
+            "configurations": {}
+          },
+          "buildKotlinToolingMetadata": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew buildKotlinToolingMetadata"
+            },
+            "configurations": {}
+          },
+          "buildNeeded": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew buildNeeded"
+            },
+            "configurations": {}
+          },
+          "classes": {
+            "cache": true,
+            "inputs": [
+              "production",
+              "^production"
+            ],
+            "dependsOn": [
+              "^classes"
+            ],
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "outputs": [
+              "{workspaceRoot}/build/classes"
+            ],
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew classes"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew clean"
+            },
+            "configurations": {}
+          },
+          "jar": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew jar"
+            },
+            "configurations": {}
+          },
+          "kotlinSourcesJar": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew kotlinSourcesJar"
+            },
+            "configurations": {}
+          },
+          "testClasses": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew testClasses"
+            },
+            "configurations": {}
+          },
+          "init": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew init"
+            },
+            "configurations": {}
+          },
+          "wrapper": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew wrapper"
+            },
+            "configurations": {}
+          },
+          "javadoc": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew javadoc"
+            },
+            "configurations": {}
+          },
+          "buildEnvironment": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew buildEnvironment"
+            },
+            "configurations": {}
+          },
+          "dependencies": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew dependencies"
+            },
+            "configurations": {}
+          },
+          "dependencyInsight": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew dependencyInsight"
+            },
+            "configurations": {}
+          },
+          "help": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew help"
+            },
+            "configurations": {}
+          },
+          "javaToolchains": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew javaToolchains"
+            },
+            "configurations": {}
+          },
+          "kotlinDslAccessorsReport": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew kotlinDslAccessorsReport"
+            },
+            "configurations": {}
+          },
+          "outgoingVariants": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew outgoingVariants"
+            },
+            "configurations": {}
+          },
+          "projects": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew projects"
+            },
+            "configurations": {}
+          },
+          "properties": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew properties"
+            },
+            "configurations": {}
+          },
+          "resolvableConfigurations": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew resolvableConfigurations"
+            },
+            "configurations": {}
+          },
+          "tasks": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew tasks"
+            },
+            "configurations": {}
+          },
+          "projectReport": {
+            "cache": false,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "outputs": [
+              "{workspaceRoot}/build/reports/project"
+            ],
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew projectReport"
+            },
+            "configurations": {}
+          },
+          "check": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew check"
+            },
+            "configurations": {}
+          },
+          "checkKotlinGradlePluginConfigurationErrors": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew checkKotlinGradlePluginConfigurationErrors"
+            },
+            "configurations": {}
+          },
+          "koverBinaryReport": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverBinaryReport"
+            },
+            "configurations": {}
+          },
+          "koverBinaryReportJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverBinaryReportJvm"
+            },
+            "configurations": {}
+          },
+          "koverCachedVerify": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverCachedVerify"
+            },
+            "configurations": {}
+          },
+          "koverCachedVerifyJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverCachedVerifyJvm"
+            },
+            "configurations": {}
+          },
+          "koverHtmlReport": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverHtmlReport"
+            },
+            "configurations": {}
+          },
+          "koverHtmlReportJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverHtmlReportJvm"
+            },
+            "configurations": {}
+          },
+          "koverLog": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverLog"
+            },
+            "configurations": {}
+          },
+          "koverLogJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverLogJvm"
+            },
+            "configurations": {}
+          },
+          "koverVerify": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverVerify"
+            },
+            "configurations": {}
+          },
+          "koverVerifyJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverVerifyJvm"
+            },
+            "configurations": {}
+          },
+          "koverXmlReport": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverXmlReport"
+            },
+            "configurations": {}
+          },
+          "koverXmlReportJvm": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew koverXmlReportJvm"
+            },
+            "configurations": {}
+          },
+          "sonar": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew sonar"
+            },
+            "configurations": {}
+          },
+          "sonarqube": {
+            "cache": true,
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew sonarqube"
+            },
+            "configurations": {}
+          },
+          "test": {
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ],
+            "dependsOn": [
+              "classes"
+            ],
+            "metadata": {
+              "technologies": [
+                "gradle"
+              ]
+            },
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "./gradlew test"
+            },
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "hanab-infer-engine": [],
+    "hanab-infer": []
+  },
+  "version": "6.0"
+}
