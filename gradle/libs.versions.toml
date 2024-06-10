@@ -1,5 +1,5 @@
 [versions]
-kotest = "5.9.0"
+kotest = "5.9.1"
 
 [plugins]
 kover = { id = "org.jetbrains.kotlinx.kover", version = "0.8.1" }
