@@ -3,7 +3,7 @@ kotest = "5.9.1"
 
 [plugins]
 kover = { id = "org.jetbrains.kotlinx.kover", version = "0.8.3" }
-sonar = { id = "org.sonarqube", version = "6.0.0.5145" }
+sonar = { id = "org.sonarqube", version = "6.0.1.5171" }
 
 [libraries]
 kotest = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
