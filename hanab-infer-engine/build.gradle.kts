@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.kover)
     alias(libs.plugins.sonar)
-    kotlin("jvm") version "2.0.21"
+    kotlin("jvm") version "2.1.0"
 }
 
 group = "io.github.tacascer"
