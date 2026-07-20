@@ -2,7 +2,7 @@
 kotest = "6.2.2"
 
 [plugins]
-kover = { id = "org.jetbrains.kotlinx.kover", version = "0.9.8" }
+kover = { id = "org.jetbrains.kotlinx.kover", version = "0.9.9" }
 sonar = { id = "org.sonarqube", version = "7.3.0.8198" }
 
 [libraries]
